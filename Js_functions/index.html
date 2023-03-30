@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String Manipulation</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	<label for="input-field">Enter a string:</label>
+	<input type="text" id="input-field">
+	<br>
+	<button onclick="toUppercase()">Uppercase</button>
+	<button onclick="toLowercase()">Lowercase</button>
+	<button onclick="reverseString()">Reverse</button>
+	<br>
+	<label for="output-field">Output:</label>
+	<div id="output-container">
+		<textarea id="output-field" rows="5" cols="50" disabled></textarea>
+		<span class="copy-icon" onclick="copyOutput()">&#x2398;</span>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
